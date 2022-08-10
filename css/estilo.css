@@ -212,7 +212,7 @@ body{
         margin-top: 980px;
     }
 }
-@media(max-width: 1920px){
+@media(min-width: 1441) and (max-width: 1920px){
     .title{
         left: 700px;
     }
