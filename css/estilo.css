@@ -1,0 +1,245 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.title{
+    position: absolute;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    left: 500px;
+    top: 50px;
+    color: hsl(234, 12%, 34%);
+    font-weight: lighter;
+}
+
+.subtitle{
+    position: absolute;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    left: 500px;
+    top: 100px;
+    color: hsl(234, 12%, 34%);
+    font-weight: bold;
+}
+
+.desc{
+    position: absolute;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    left: 440px;
+    top: 170px;
+    width: 530px;
+    color: hsl(229, 6%, 66%);
+}
+
+.supervisor{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 220px;
+    margin-top: 410px;
+    box-shadow: 1px 1px 20px -3px rgba(0, 0, 0, 0.212);
+    border-radius: 5px;
+    border-top: solid 3px hsl(180, 62%, 55%);
+}
+
+.supervisor .title1{
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(234, 12%, 34%);
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.supervisor .desc1{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 25px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: hsl(229, 6%, 66%);
+}
+
+.supervisor_img{
+    margin-left: 210px;
+    margin-top: 15px;
+}
+
+
+.team{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 550px;
+    margin-top: 290px;
+    box-shadow: 1px 1px 20px -3px rgba(0, 0, 0, 0.212);
+    border-radius: 5px;
+    border-top: solid 3px hsl(0, 78%, 62%);
+}
+.title2{
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(234, 12%, 34%);
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.desc2{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 25px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: hsl(229, 6%, 66%);
+}
+.team_img{
+    margin-left: 210px;
+    margin-top: 15px;
+}
+
+
+.karma{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 550px;
+    margin-top: 520px;
+    box-shadow: 1px 1px 20px -3px rgba(0, 0, 0, 0.212);
+    border-radius: 5px;
+    border-top: solid 3px hsl(34, 97%, 64%);
+}
+.title3{
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(234, 12%, 34%);
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.desc3{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 25px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: hsl(229, 6%, 66%);
+}
+.karma_img{
+    margin-left: 210px;
+    margin-top: 15px;
+}
+
+
+.calculator{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 880px;
+    margin-top: 410px;
+    box-shadow: 1px 1px 20px -3px rgba(0, 0, 0, 0.212);
+    border-radius: 5px;
+    border-top: solid 3px hsl(212, 86%, 64%);
+}
+.title4{
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(234, 12%, 34%);
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.desc4{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 25px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: hsl(229, 6%, 66%);
+}
+.calculator_img{
+    margin-left: 210px;
+    margin-top: 15px;
+}
+
+/* Responsive */
+@media(max-width: 375px){
+    body{
+        display: flex;
+        height: 120vh;
+    }
+
+    .title{
+        left: 37px;
+        top: 50px;
+        font-size: 25px;
+    }
+    
+
+    .subtitle{
+        left: 37px;
+        top: 100px;
+        font-size: 25px;
+    }
+    
+    .desc{
+        left: 37px;
+        top: 170px;
+        width: 300px;
+    }
+
+    .supervisor{
+        margin-left: 37px;
+        margin-top: 320px;
+    }
+
+    .team{
+        margin-left: 37px;
+        margin-top: 540px;
+    }
+
+    .karma{
+        margin-left: 37px;
+        margin-top: 760px;
+    }
+
+    .calculator{
+        margin-left: 37px;
+        margin-top: 980px;
+    }
+}
+@media(max-width: 1920px){
+    .title{
+        left: 700px;
+    }
+    
+    .subtitle{
+        left: 700px;
+    }
+    
+    .desc{
+        left: 640px;
+    }
+
+    .supervisor{
+        margin-left: 450px;
+    }
+
+    .team{
+        margin-left: 770px;
+    }
+
+    .karma{
+        margin-left: 1090px;
+        margin-top: 410px;
+    }
+
+    .calculator{
+        margin-left: 770px;
+        margin-top: 520px;
+    }
+}
